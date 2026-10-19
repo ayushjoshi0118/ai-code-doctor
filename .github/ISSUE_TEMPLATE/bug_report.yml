@@ -1,0 +1,32 @@
+name: Bug Report
+description: Create a report to help us improve AI Code Doctor
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report an issue!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction-code
+    attributes:
+      label: Python Code snippet
+      description: The Python code that produced unexpected results.
+      render: python
+    validations:
+      required: false
+  - type: input
+    id: environment
+    attributes:
+      label: Environment Info
+      description: OS, Python version, Streamlit version.
+      placeholder: e.g. Windows 11, Python 3.11, Streamlit 1.38.0
+    validations:
+      required: true

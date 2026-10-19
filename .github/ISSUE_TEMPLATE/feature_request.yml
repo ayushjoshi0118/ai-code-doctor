@@ -1,0 +1,23 @@
+name: Feature Request
+description: Suggest an idea or enhancement for AI Code Doctor
+title: "[FEATURE]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We appreciate community ideas to make AI Code Doctor even better!
+  - type: textarea
+    id: problem
+    attributes:
+      label: Is your feature request related to a problem?
+      description: A clear description of what the problem is.
+    validations:
+      required: false
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution / Enhancement
+      description: Describe what you would like to happen.
+    validations:
+      required: true
