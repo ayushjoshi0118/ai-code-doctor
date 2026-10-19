@@ -1,7 +1,6 @@
 # 🧪 AI Code Doctor
 
 [![CI Quality & Test Suite](https://github.com/ayushjoshi0118/ai-code-doctor/actions/workflows/ci.yml/badge.svg)](https://github.com/ayushjoshi0118/ai-code-doctor/actions/workflows/ci.yml)
-
 [![Python Version](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://streamlit.io)
